@@ -1,9 +1,17 @@
 from setuptools import setup, find_packages
+import os
+
+# Read the README file
+def read_long_description():
+    with open("README.md", "r", encoding="utf-8") as fh:
+        return fh.read()
 
 setup(
     name='alerthub',  
     version='0.1.0',  
     description='A Python package for managing email services across multiple platforms',
+    long_description=read_long_description(), 
+    long_description_content_type="text/markdown",
     author='Harnath Atmakuri',
     author_email='akvdkharnath@gmail.com',
     url='https://github.com/akvdkharnath/alerthub',

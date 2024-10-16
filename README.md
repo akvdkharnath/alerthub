@@ -23,3 +23,9 @@ You can install AlertHub using pip:
 
 ```bash
 pip install alerthub
+```
+
+
+## Changelog
+
+You can view the complete list of changes in the [Changelog](./CHANGELOG.md).
