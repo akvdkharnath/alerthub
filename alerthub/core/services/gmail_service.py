@@ -1,5 +1,5 @@
 # core/services/gmail_service.py
-from core.base_email_service import BaseEmailService
+from alerthub.core.base_email_service import BaseEmailService
 from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials

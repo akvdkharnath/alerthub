@@ -1,5 +1,5 @@
 # core/services/outlook_service.py
-from core.base_email_service import BaseEmailService
+from alerthub.core.base_email_service import BaseEmailService
 
 
 class OutlookService(BaseEmailService):
